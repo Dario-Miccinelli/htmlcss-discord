@@ -1,24 +1,73 @@
-@font-face {
-    font-family: 'Whitney Light';
-    src: url('../fonts/whitneylight.woff') format('woff');
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-@font-face {
-    font-family: 'Whitney Medium';
-    src: url('../fonts/whitneymedium.woff') format('woff');
-}
 
-@font-face {
-    font-family: 'Whitney Bold';
-    src: url('../fonts/whitneybold.woff') format('woff');
-}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
-html {
-    font-size: 62.5%;
+header {
+    background-color: #255ee9;
+    padding: 0 10rem;
+    height: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo {
+    background-image: url("../img/logo.svg");
+    float: left;
+    background-size: contain;
+    width: 15%;
+    background-repeat: no-repeat;
+    height: 35px;
+    margin: 10px 0;
+}
+
+nav {
+    float: left;
+    margin: auto;
+    width: 65%;
+    text-align: center;
+    margin-top: 5   px;
+    line-height: 50px;
+}
+
+nav a {
+    margin: 0 20px;
+    color: #fff;
+}
+
+.accedi {
+    float: left;
+    text-align: center;
+    width: 17%;
+    margin-top: 2px;
+    line-height: 40px;
+}
+
+header a {
+    font-weight: bolder;
+}
+
+.bottone {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 4px 10px;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    left: 40%;
+}
+
+a {
+    text-decoration: none;
+    
 }
